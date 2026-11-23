@@ -116,7 +116,12 @@ def main():
         for name, data in exports(item, im).items():
             path = ROOT/'logos'/item['slug']/name
             if args.check:
-                assert path.read_bytes() == data, f'Stale export: {path.relative_to(ROOT)}'
+                if name.endswith('.png'):
+                    actual = Image.open(path).convert('RGBA')
+                    expected = Image.open(io.BytesIO(data)).convert('RGBA')
+                    assert actual.size == expected.size and actual.tobytes() == expected.tobytes(), f'Stale export: {path.relative_to(ROOT)}'
+                else:
+                    assert path.read_bytes() == data, f'Stale export: {path.relative_to(ROOT)}'
             else:
                 path.write_bytes(data)
         if args.fastfetch:
