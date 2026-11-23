@@ -1,4 +1,4 @@
-# Fastfetch Blue Archive Logos
+# Blue Archive Halo Fastfetch Logos
 
 A custom logo collection for [Fastfetch](https://github.com/fastfetch-cli/fastfetch), based on Blue Archive students’ halos.
 
@@ -20,8 +20,8 @@ The designs use bold strokes and clear spacing inspired by Omarchy’s terminal 
 Install Fastfetch, then clone this collection:
 
 ```sh
-git clone https://github.com/kriss-spy/fastfetch-blue-archive-logos.git
-cd fastfetch-blue-archive-logos
+git clone https://github.com/kriss-spy/blue-archive-halo-fastfetch-logos.git
+cd blue-archive-halo-fastfetch-logos
 ./scripts/try-logo --list
 ./scripts/try-logo shiroko
 ```
@@ -66,7 +66,7 @@ To make a logo persistent, merge a `logo` object like this into your Fastfetch c
 {
   "logo": {
     "type": "file",
-    "source": "/absolute/path/to/fastfetch-blue-archive-logos/logos/hoshino/logo.txt",
+    "source": "/absolute/path/to/blue-archive-halo-fastfetch-logos/logos/hoshino/logo.txt",
     "color": { "1": "#ffc1d6" },
     "padding": { "right": 4 }
   }
