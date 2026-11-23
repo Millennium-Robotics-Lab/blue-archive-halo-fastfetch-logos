@@ -15,13 +15,78 @@ The designs use bold strokes and clear spacing inspired by Omarchy’s terminal 
 | Kei | Mirrored frame arrangement with an upper tab and lower overlap channel |
 | Yuzu | Two open circular rings with a vertical power-button bar |
 
-## Quick start
+## Install
 
-Install Fastfetch, then clone this collection:
+Install [Fastfetch](https://github.com/fastfetch-cli/fastfetch) with your system's package manager first. Then install a logo as follows.
+
+1. Clone this collection:
 
 ```sh
 git clone https://github.com/Millennium-Robotics-Lab/blue-archive-halo-fastfetch-logos.git
 cd blue-archive-halo-fastfetch-logos
+```
+
+2. Copy your chosen logo into the Fastfetch config directory. Run this from the clone:
+
+```sh
+logo_name=hoshino
+ff_config_dir="${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch"
+ff_logo_dir="$ff_config_dir/logos/$logo_name"
+mkdir -p "$ff_logo_dir"
+cp "logos/$logo_name/logo.txt" "logos/$logo_name/logo.png" "logos/$logo_name/color" "$ff_logo_dir/"
+printf 'Config file: %s\nLogo source: %s\n' "$ff_config_dir/config.jsonc" "$ff_logo_dir/logo.txt"
+printf 'Logo color: '
+cat "$ff_logo_dir/color"
+```
+
+Set `logo_name` to `shiroko`, `serika`, `hoshino`, `aris`, `kei`, or `yuzu`. The installed copies work independently of the clone.
+
+3. Open the config file printed above. Replace its existing `logo` object with the example below. Keep your modules and other settings. If the file does not exist, create it with this complete example:
+
+```json
+{
+  "logo": {
+    "type": "file",
+    "source": "/absolute/path/to/fastfetch/logos/hoshino/logo.txt",
+    "color": { "1": "#ffc1d6" },
+    "padding": { "right": 4 }
+  }
+}
+```
+
+Replace `source` with the **Logo source** path printed by the install command. Use the printed **Logo color** if you selected another character. Set `type` to `file` even if your previous config used `kitty-direct`.
+
+4. Run Fastfetch without logo arguments to check the installed configuration:
+
+```sh
+fastfetch
+```
+
+For automatic display in new terminals, add `fastfetch` to your interactive shell's startup file, such as `~/.bashrc` or `~/.zshrc`.
+
+### Install the PNG version
+
+The copy command also installs `logo.png`. In a terminal that supports the Kitty graphics protocol, use this `logo` object instead:
+
+```json
+{
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/absolute/path/to/fastfetch/logos/hoshino/logo.png",
+    "width": 34,
+    "height": 17,
+    "padding": { "right": 4 }
+  }
+}
+```
+
+Use the same installed directory printed above, with `logo.png` as the filename. Keep the rest of your existing config.
+
+## Try without installing
+
+From a clone, use the launcher to preview a logo:
+
+```sh
 ./scripts/try-logo --list
 ./scripts/try-logo shiroko
 ```
@@ -58,19 +123,6 @@ For a compatible Kitty graphics terminal:
 
 ```sh
 fastfetch --logo-type kitty-direct --logo "$PWD/logos/hoshino/logo.png" --logo-width 34 --logo-height 17
-```
-
-To make a logo persistent, merge a `logo` object like this into your Fastfetch config. Replace the example source with the absolute path to your clone:
-
-```json
-{
-  "logo": {
-    "type": "file",
-    "source": "/absolute/path/to/blue-archive-halo-fastfetch-logos/logos/hoshino/logo.txt",
-    "color": { "1": "#ffc1d6" },
-    "padding": { "right": 4 }
-  }
-}
 ```
 
 ## Files
