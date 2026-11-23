@@ -2,6 +2,14 @@
 
 A custom logo collection for [Fastfetch](https://github.com/fastfetch-cli/fastfetch), based on Blue Archive students’ halos.
 
+## Demo
+
+![Aris halo logo displayed by Fastfetch in a terminal](docs/demo-aris.png)
+
+Aris in use. Personal identifiers and network details are redacted.
+
+## Collection
+
 ![Six Blue Archive halo logos](docs/gallery.png)
 
 The designs use bold strokes and clear spacing inspired by Omarchy’s terminal logo. Source geometry stays intact: circular halos stay circular, and rectangular frames stay rectangular.

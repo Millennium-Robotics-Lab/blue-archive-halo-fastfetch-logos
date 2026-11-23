@@ -8,6 +8,8 @@ These are unofficial fan-made interpretations of Blue Archive halo designs. They
 
 The marks were drawn as pixel grids with AI assistance and revised through human visual review. Original source diagrams and the official Omarchy logo are not redistributed here.
 
+The terminal demo screenshot was supplied by the repository owner and redacted for publication.
+
 ## License scope
 
-The MIT license applies to the repository’s tooling and original documentation. It does not grant rights to Blue Archive characters, halo identities, Omarchy branding, or the artwork in `logos/` and `docs/gallery.png`. No additional artwork license is granted by this repository.
+The MIT license applies to the repository’s tooling and original documentation. It does not grant rights to Blue Archive characters, halo identities, Omarchy branding, or image assets in `logos/` and `docs/`. No additional artwork license is granted by this repository.
