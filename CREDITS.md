@@ -8,7 +8,7 @@ These are unofficial fan-made interpretations of Blue Archive halo designs. They
 
 The marks were drawn as pixel grids with AI assistance and revised through human visual review. Original source diagrams and the official Omarchy logo are not redistributed here.
 
-The terminal demo screenshots were supplied by the repository owner and redacted for publication.
+The terminal demo screenshot was supplied by the repository owner and redacted for publication.
 
 ## License scope
 

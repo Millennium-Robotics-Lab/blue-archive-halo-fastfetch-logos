@@ -8,10 +8,6 @@ A custom logo collection for [Fastfetch](https://github.com/fastfetch-cli/fastfe
 
 Aris in use. Personal identifiers and network details are redacted.
 
-![Aris halo logo displayed by Fastfetch on the desktop](docs/demo-aris-desktop.png)
-
-Desktop view with the same privacy redactions.
-
 ## Collection
 
 ![Six Blue Archive halo logos](docs/gallery.png)
