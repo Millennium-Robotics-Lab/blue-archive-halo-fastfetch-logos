@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
+if [[ ${1:-} == --list ]]; then
+  for path in "$root"/logos/*/logo.txt; do
+    path=${path%/logo.txt}
+    printf '%s\n' "${path##*/}"
+  done
+  exit 0
+fi
+student=${1:-shiroko}
+mode=${2:-text}
+case "$student" in *[!a-z0-9-]*|'') echo 'Invalid logo name. Use --list.' >&2; exit 2;; esac
+folder="$root/logos/$student"
+[[ -f "$folder/design.json" ]] || { echo 'Unknown logo. Use --list.' >&2; exit 2; }
+IFS= read -r color < "$folder/color"
+case "$mode" in
+  text) source="$folder/logo.txt" ;;
+  mono) source="$folder/mono.txt" ;;
+  ascii) source="$folder/ascii.txt" ;;
+  kitty) exec fastfetch --logo-type kitty-direct --logo "$folder/logo.png" --logo-width 34 --logo-height 17 ;;
+  *) echo 'Choose text, mono, ascii, or kitty.' >&2; exit 2 ;;
+esac
+exec fastfetch --logo-type file --logo "$source" --logo-color-1 "$color"

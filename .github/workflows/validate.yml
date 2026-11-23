@@ -1,0 +1,12 @@
+name: Validate logos
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  exports:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run scripts/build_collection.py --check
+      - run: bash -n scripts/try-logo

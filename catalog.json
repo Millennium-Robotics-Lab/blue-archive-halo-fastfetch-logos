@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "logos": [
+    {
+      "slug": "shiroko",
+      "name": "Shiroko",
+      "color": "#39d9eb",
+      "description": "Two circular rings with cardinal cross extensions.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/421522.png"
+    },
+    {
+      "slug": "serika",
+      "name": "Serika",
+      "color": "#ff5bb0",
+      "description": "Two circular rings with diagonal cross extensions.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/193411.png"
+    },
+    {
+      "slug": "hoshino",
+      "name": "Hoshino",
+      "color": "#ffc1d6",
+      "description": "Three circular outlines, split outer arcs, and detached side marks.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/595587.png"
+    },
+    {
+      "slug": "aris",
+      "name": "Aris",
+      "color": "#9cf4dd",
+      "description": "Unequal overlapping rectangular frames and a detached upper rectangle.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/665485.png"
+    },
+    {
+      "slug": "kei",
+      "name": "Kei",
+      "color": "#f49cc4",
+      "description": "Mirrored rectangular arrangement with a separate upper tab and lower overlap channel.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/69387957mv85qw9k.png"
+    },
+    {
+      "slug": "yuzu",
+      "name": "Yuzu",
+      "color": "#ffd68a",
+      "description": "Two open circular rings and a separate vertical power-button bar.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/471503.png"
+    }
+  ]
+}

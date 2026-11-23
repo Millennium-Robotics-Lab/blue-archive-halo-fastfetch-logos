@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.local/
+
+# Local design sessions and personal-vault integration stay off GitHub.
+/patches/
+/references/
+/checks/
+/WORKFLOW.md
+/SOURCES.md
+/assets/
+/examples/
+/logos/*.txt
+/scripts/build.py
+/scripts/halo_workflow.py
+/scripts/test_halo_workflow.py
