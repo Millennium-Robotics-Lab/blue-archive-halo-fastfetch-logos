@@ -20,7 +20,7 @@ The designs use bold strokes and clear spacing inspired by Omarchy’s terminal 
 Install Fastfetch, then clone this collection:
 
 ```sh
-git clone https://github.com/kriss-spy/blue-archive-halo-fastfetch-logos.git
+git clone https://github.com/Millennium-Robotics-Lab/blue-archive-halo-fastfetch-logos.git
 cd blue-archive-halo-fastfetch-logos
 ./scripts/try-logo --list
 ./scripts/try-logo shiroko
