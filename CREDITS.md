@@ -6,7 +6,7 @@ These are unofficial fan-made interpretations of Blue Archive halo designs. They
 - Visual inspiration: [Omarchy’s official brand page](https://omarchy.org/brand/), especially its bold terminal strokes and clear negative space.
 - Runtime: [Fastfetch](https://github.com/fastfetch-cli/fastfetch).
 
-The marks were drawn as pixel grids with AI assistance and revised through human visual review. Original source diagrams and the official Omarchy logo are not redistributed here.
+The marks were drawn as pixel grids with AI assistance and revised through human visual review. The repository owner supplied Otogi’s final pixel grid. Original source diagrams and the official Omarchy logo are not redistributed here.
 
 The terminal demo screenshot was supplied by the repository owner and redacted for publication.
 

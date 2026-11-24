@@ -10,18 +10,30 @@ Aris in use. Personal identifiers and network details are redacted.
 
 ## Collection
 
-![Six Blue Archive halo logos](docs/gallery.png)
+![18 Blue Archive halo logos](docs/gallery.png)
 
 The designs use bold strokes and clear spacing inspired by Omarchy’s terminal logo. Source geometry stays intact: circular halos stay circular, and rectangular frames stay rectangular.
 
 | Logo | Shape |
 | --- | --- |
-| Shiroko | Two circular rings with cardinal extensions |
-| Serika | Two circular rings with diagonal extensions |
-| Hoshino | Three circular outlines with separate horizontal side marks |
-| Aris | Overlapping rectangular frames with a detached upper rectangle |
-| Kei | Mirrored frame arrangement with an upper tab and lower overlap channel |
-| Yuzu | Two open circular rings with a vertical power-button bar |
+| Shiroko | Two circular rings with cardinal cross extensions |
+| Serika | Two circular rings with diagonal extensions and narrow inward ends |
+| Hoshino | Three circular outlines, split outer arcs, and detached side marks |
+| Aris | Unequal overlapping rectangular frames and a detached upper rectangle |
+| Kei | Mirrored rectangular arrangement with a separate upper tab and lower overlap channel |
+| Yuzu | Two open circular rings and a separate vertical power-button bar |
+| Ayane | Two circular rings with four notched cardinal marks |
+| Nonomi | Two circular rings, detached upper leaves, and a lower dot and teardrop |
+| Seia | Crossed diagonal arms with curved ends and triangular cutouts |
+| Hanako | Two circular rings with four detached diagonal petals |
+| Otogi | Circular ring with four short cardinal tabs and a central four-petal mark |
+| Kurumi | Triangular frame with three pointed extensions and a detached inverted triangle |
+| Yukino | Circular ring with four diagonal rays and a detached central dot |
+| Kaya | Circular ring with two detached diagonal sword marks |
+| Kanna | Four open diamond-ended strands with interwoven crossing gaps |
+| Natsu | Two circular rings with four solid cardinal marks on the inner ring |
+| Moe | Inner circular ring, four separate outer arcs, and inward triangular arrows |
+| Iori | Two circular rings with three pointed radial marks |
 
 ## Install
 
@@ -47,7 +59,7 @@ printf 'Logo color: '
 cat "$ff_logo_dir/color"
 ```
 
-Set `logo_name` to `shiroko`, `serika`, `hoshino`, `aris`, `kei`, or `yuzu`. The installed copies work independently of the clone.
+Set `logo_name` to a lowercase name from the collection, such as `nonomi` or `otogi`. Run `./scripts/try-logo --list` to see all 18 names. The installed copies work independently of the clone.
 
 3. Open the config file printed above. Replace its existing `logo` object with the example below. Keep your modules and other settings. If the file does not exist, create it with this complete example:
 
@@ -102,10 +114,10 @@ From a clone, use the launcher to preview a logo:
 The launcher uses your existing Fastfetch modules and changes only the logo for that invocation. It does not edit your settings. Bash and Fastfetch are sufficient for using the collection; Python is only needed to rebuild assets.
 
 ```sh
-./scripts/try-logo hoshino
+./scripts/try-logo nonomi
 ./scripts/try-logo serika ascii
-./scripts/try-logo aris mono
-./scripts/try-logo kei kitty
+./scripts/try-logo otogi mono
+./scripts/try-logo kanna kitty
 ```
 
 | Mode | Output |

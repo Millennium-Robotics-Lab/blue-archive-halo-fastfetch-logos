@@ -13,7 +13,7 @@
       "slug": "serika",
       "name": "Serika",
       "color": "#ff5bb0",
-      "description": "Two circular rings with diagonal cross extensions.",
+      "description": "Two circular rings with diagonal extensions and narrow inward ends.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
       "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/193411.png"
     },
@@ -48,6 +48,102 @@
       "description": "Two open circular rings and a separate vertical power-button bar.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
       "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/471503.png"
+    },
+    {
+      "slug": "ayane",
+      "name": "Ayane",
+      "color": "#ed5c64",
+      "description": "Two circular rings with four notched cardinal marks.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/94832.png"
+    },
+    {
+      "slug": "nonomi",
+      "name": "Nonomi",
+      "color": "#c4f500",
+      "description": "Two circular rings, detached upper leaves, and a lower dot and teardrop.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/209875.png"
+    },
+    {
+      "slug": "seia",
+      "name": "Seia",
+      "color": "#ffe2bd",
+      "description": "Crossed diagonal arms with curved ends and triangular cutouts.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/904667.png"
+    },
+    {
+      "slug": "hanako",
+      "name": "Hanako",
+      "color": "#ffc1c6",
+      "description": "Two circular rings with four detached diagonal petals.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_500/h_500/829/43637/2025/7/14/905573.png"
+    },
+    {
+      "slug": "otogi",
+      "name": "Otogi",
+      "color": "#d8e99d",
+      "description": "Circular ring with four short cardinal tabs and a central four-petal mark.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/80072693mv86bwg6.png"
+    },
+    {
+      "slug": "kurumi",
+      "name": "Kurumi",
+      "color": "#d4ff98",
+      "description": "Triangular frame with three pointed extensions and a detached inverted triangle.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/46921683mv86bz7k.png"
+    },
+    {
+      "slug": "yukino",
+      "name": "Yukino",
+      "color": "#f55d98",
+      "description": "Circular ring with four diagonal rays and a detached central dot.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/29650078mv86c4d8.png"
+    },
+    {
+      "slug": "kaya",
+      "name": "Kaya",
+      "color": "#ffe7af",
+      "description": "Circular ring with two detached diagonal sword marks.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/19/102604.png"
+    },
+    {
+      "slug": "kanna",
+      "name": "Kanna",
+      "color": "#b4efff",
+      "description": "Four open diamond-ended strands with interwoven crossing gaps.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_280/h_280/829/43637/2025/7/14/976029.png"
+    },
+    {
+      "slug": "natsu",
+      "name": "Natsu",
+      "color": "#ffd2cf",
+      "description": "Two circular rings with four solid cardinal marks on the inner ring.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/955499.png"
+    },
+    {
+      "slug": "moe",
+      "name": "Moe",
+      "color": "#ffe18e",
+      "description": "Inner circular ring, four separate outer arcs, and inward triangular arrows.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/808915.png"
+    },
+    {
+      "slug": "iori",
+      "name": "Iori",
+      "color": "#a4a1d3",
+      "description": "Two circular rings with three pointed radial marks.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/611002.png"
     }
   ]
 }

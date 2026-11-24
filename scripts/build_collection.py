@@ -87,7 +87,8 @@ def font(size):
 
 
 def gallery(items):
-    sheet = Image.new('RGB', (1200, 900), '#171c24')
+    rows = (len(items) + 2) // 3
+    sheet = Image.new('RGB', (1200, 128 + rows * 384), '#171c24')
     draw = ImageDraw.Draw(sheet)
     draw.text((32, 24), 'Fastfetch Blue Archive Logos', fill='#f1f5f9', font=font(32))
     draw.text((32, 68), 'Custom terminal logos / 34 columns x 17 rows', fill='#a3b2c4', font=font(18))
