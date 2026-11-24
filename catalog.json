@@ -2,20 +2,13 @@
   "format": 1,
   "logos": [
     {
-      "slug": "shiroko",
-      "name": "Shiroko",
-      "color": "#39d9eb",
-      "description": "Two circular rings with cardinal cross extensions.",
+      "slug": "ayane",
+      "name": "Ayane",
+      "color": "#ed5c64",
+      "description": "Two circular rings with four notched cardinal marks.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/421522.png"
-    },
-    {
-      "slug": "serika",
-      "name": "Serika",
-      "color": "#ff5bb0",
-      "description": "Two circular rings with diagonal extensions and narrow inward ends.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/193411.png"
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/94832.png",
+      "school": "Abydos"
     },
     {
       "slug": "hoshino",
@@ -23,39 +16,8 @@
       "color": "#ffc1d6",
       "description": "Three circular outlines, split outer arcs, and detached side marks.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/595587.png"
-    },
-    {
-      "slug": "aris",
-      "name": "Aris",
-      "color": "#9cf4dd",
-      "description": "Unequal overlapping rectangular frames and a detached upper rectangle.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/665485.png"
-    },
-    {
-      "slug": "kei",
-      "name": "Kei",
-      "color": "#f49cc4",
-      "description": "Mirrored rectangular arrangement with a separate upper tab and lower overlap channel.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/69387957mv85qw9k.png"
-    },
-    {
-      "slug": "yuzu",
-      "name": "Yuzu",
-      "color": "#ffd68a",
-      "description": "Two open circular rings and a separate vertical power-button bar.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/471503.png"
-    },
-    {
-      "slug": "ayane",
-      "name": "Ayane",
-      "color": "#ed5c64",
-      "description": "Two circular rings with four notched cardinal marks.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/94832.png"
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/595587.png",
+      "school": "Abydos"
     },
     {
       "slug": "nonomi",
@@ -63,79 +25,26 @@
       "color": "#c4f500",
       "description": "Two circular rings, detached upper leaves, and a lower dot and teardrop.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/209875.png"
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/209875.png",
+      "school": "Abydos"
     },
     {
-      "slug": "seia",
-      "name": "Seia",
-      "color": "#ffe2bd",
-      "description": "Crossed diagonal arms with curved ends and triangular cutouts.",
+      "slug": "serika",
+      "name": "Serika",
+      "color": "#ff5bb0",
+      "description": "Two circular rings with diagonal extensions and narrow inward ends.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/904667.png"
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/193411.png",
+      "school": "Abydos"
     },
     {
-      "slug": "hanako",
-      "name": "Hanako",
-      "color": "#ffc1c6",
-      "description": "Two circular rings with four detached diagonal petals.",
+      "slug": "shiroko",
+      "name": "Shiroko",
+      "color": "#39d9eb",
+      "description": "Two circular rings with cardinal cross extensions.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_500/h_500/829/43637/2025/7/14/905573.png"
-    },
-    {
-      "slug": "otogi",
-      "name": "Otogi",
-      "color": "#d8e99d",
-      "description": "Circular ring with four short cardinal tabs and a central four-petal mark.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/80072693mv86bwg6.png"
-    },
-    {
-      "slug": "kurumi",
-      "name": "Kurumi",
-      "color": "#d4ff98",
-      "description": "Triangular frame with three pointed extensions and a detached inverted triangle.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/46921683mv86bz7k.png"
-    },
-    {
-      "slug": "yukino",
-      "name": "Yukino",
-      "color": "#f55d98",
-      "description": "Circular ring with four diagonal rays and a detached central dot.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/29650078mv86c4d8.png"
-    },
-    {
-      "slug": "kaya",
-      "name": "Kaya",
-      "color": "#ffe7af",
-      "description": "Circular ring with two detached diagonal sword marks.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/19/102604.png"
-    },
-    {
-      "slug": "kanna",
-      "name": "Kanna",
-      "color": "#b4efff",
-      "description": "Four open diamond-ended strands with interwoven crossing gaps.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_280/h_280/829/43637/2025/7/14/976029.png"
-    },
-    {
-      "slug": "natsu",
-      "name": "Natsu",
-      "color": "#ffd2cf",
-      "description": "Two circular rings with four solid cardinal marks on the inner ring.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/955499.png"
-    },
-    {
-      "slug": "moe",
-      "name": "Moe",
-      "color": "#ffe18e",
-      "description": "Inner circular ring, four separate outer arcs, and inward triangular arrows.",
-      "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/808915.png"
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/421522.png",
+      "school": "Abydos"
     },
     {
       "slug": "iori",
@@ -143,7 +52,116 @@
       "color": "#a4a1d3",
       "description": "Two circular rings with three pointed radial marks.",
       "source_page": "https://www.gamekee.com/ba/674121.html",
-      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/611002.png"
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/611002.png",
+      "school": "Gehenna"
+    },
+    {
+      "slug": "kaya",
+      "name": "Kaya",
+      "color": "#ffe7af",
+      "description": "Circular ring with two detached diagonal sword marks.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/19/102604.png",
+      "school": "General Student Council"
+    },
+    {
+      "slug": "aris",
+      "name": "Aris",
+      "color": "#9cf4dd",
+      "description": "Unequal overlapping rectangular frames and a detached upper rectangle.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/665485.png",
+      "school": "Millennium"
+    },
+    {
+      "slug": "kei",
+      "name": "Kei",
+      "color": "#f49cc4",
+      "description": "Mirrored rectangular arrangement with a separate upper tab and lower overlap channel.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/69387957mv85qw9k.png",
+      "school": "Millennium"
+    },
+    {
+      "slug": "yuzu",
+      "name": "Yuzu",
+      "color": "#ffd68a",
+      "description": "Two open circular rings and a separate vertical power-button bar.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/471503.png",
+      "school": "Millennium"
+    },
+    {
+      "slug": "kurumi",
+      "name": "Kurumi",
+      "color": "#d4ff98",
+      "description": "Triangular frame with three pointed extensions and a detached inverted triangle.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/46921683mv86bz7k.png",
+      "school": "SRT"
+    },
+    {
+      "slug": "moe",
+      "name": "Moe",
+      "color": "#ffe18e",
+      "description": "Inner circular ring, four separate outer arcs, and inward triangular arrows.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/808915.png",
+      "school": "SRT"
+    },
+    {
+      "slug": "otogi",
+      "name": "Otogi",
+      "color": "#d8e99d",
+      "description": "Circular ring with four short cardinal tabs and a central four-petal mark.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/80072693mv86bwg6.png",
+      "school": "SRT"
+    },
+    {
+      "slug": "yukino",
+      "name": "Yukino",
+      "color": "#f55d98",
+      "description": "Circular ring with four diagonal rays and a detached central dot.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/829/images/w_350/h_350/1017575/2026/9/14/29650078mv86c4d8.png",
+      "school": "SRT"
+    },
+    {
+      "slug": "hanako",
+      "name": "Hanako",
+      "color": "#ffc1c6",
+      "description": "Two circular rings with four detached diagonal petals.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_500/h_500/829/43637/2025/7/14/905573.png",
+      "school": "Trinity"
+    },
+    {
+      "slug": "natsu",
+      "name": "Natsu",
+      "color": "#ffd2cf",
+      "description": "Two circular rings with four solid cardinal marks on the inner ring.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/955499.png",
+      "school": "Trinity"
+    },
+    {
+      "slug": "seia",
+      "name": "Seia",
+      "color": "#ffe2bd",
+      "description": "Crossed diagonal arms with curved ends and triangular cutouts.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_350/h_350/829/43637/2025/7/14/904667.png",
+      "school": "Trinity"
+    },
+    {
+      "slug": "kanna",
+      "name": "Kanna",
+      "color": "#b4efff",
+      "description": "Four open diamond-ended strands with interwoven crossing gaps.",
+      "source_page": "https://www.gamekee.com/ba/674121.html",
+      "source_image": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_280/h_280/829/43637/2025/7/14/976029.png",
+      "school": "Valkyrie"
     }
   ]
 }

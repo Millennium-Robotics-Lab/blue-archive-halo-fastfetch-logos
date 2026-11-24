@@ -14,26 +14,28 @@ Aris in use. Personal identifiers and network details are redacted.
 
 The designs use bold strokes and clear spacing inspired by Omarchy’s terminal logo. Source geometry stays intact: circular halos stay circular, and rectangular frames stay rectangular.
 
-| Logo | Shape |
-| --- | --- |
-| Shiroko | Two circular rings with cardinal cross extensions |
-| Serika | Two circular rings with diagonal extensions and narrow inward ends |
-| Hoshino | Three circular outlines, split outer arcs, and detached side marks |
-| Aris | Unequal overlapping rectangular frames and a detached upper rectangle |
-| Kei | Mirrored rectangular arrangement with a separate upper tab and lower overlap channel |
-| Yuzu | Two open circular rings and a separate vertical power-button bar |
-| Ayane | Two circular rings with four notched cardinal marks |
-| Nonomi | Two circular rings, detached upper leaves, and a lower dot and teardrop |
-| Seia | Crossed diagonal arms with curved ends and triangular cutouts |
-| Hanako | Two circular rings with four detached diagonal petals |
-| Otogi | Circular ring with four short cardinal tabs and a central four-petal mark |
-| Kurumi | Triangular frame with three pointed extensions and a detached inverted triangle |
-| Yukino | Circular ring with four diagonal rays and a detached central dot |
-| Kaya | Circular ring with two detached diagonal sword marks |
-| Kanna | Four open diamond-ended strands with interwoven crossing gaps |
-| Natsu | Two circular rings with four solid cardinal marks on the inner ring |
-| Moe | Inner circular ring, four separate outer arcs, and inward triangular arrows |
-| Iori | Two circular rings with three pointed radial marks |
+The gallery shows four logos per row, ordered by school and then student name. Kaya appears under the General Student Council.
+
+| School / affiliation | Logo | Shape |
+| --- | --- | --- |
+| Abydos | Ayane | Two circular rings with four notched cardinal marks |
+| Abydos | Hoshino | Three circular outlines, split outer arcs, and detached side marks |
+| Abydos | Nonomi | Two circular rings, detached upper leaves, and a lower dot and teardrop |
+| Abydos | Serika | Two circular rings with diagonal extensions and narrow inward ends |
+| Abydos | Shiroko | Two circular rings with cardinal cross extensions |
+| Gehenna | Iori | Two circular rings with three pointed radial marks |
+| General Student Council | Kaya | Circular ring with two detached diagonal sword marks |
+| Millennium | Aris | Unequal overlapping rectangular frames and a detached upper rectangle |
+| Millennium | Kei | Mirrored rectangular arrangement with a separate upper tab and lower overlap channel |
+| Millennium | Yuzu | Two open circular rings and a separate vertical power-button bar |
+| SRT | Kurumi | Triangular frame with three pointed extensions and a detached inverted triangle |
+| SRT | Moe | Inner circular ring, four separate outer arcs, and inward triangular arrows |
+| SRT | Otogi | Circular ring with four short cardinal tabs and a central four-petal mark |
+| SRT | Yukino | Circular ring with four diagonal rays and a detached central dot |
+| Trinity | Hanako | Two circular rings with four detached diagonal petals |
+| Trinity | Natsu | Two circular rings with four solid cardinal marks on the inner ring |
+| Trinity | Seia | Crossed diagonal arms with curved ends and triangular cutouts |
+| Valkyrie | Kanna | Four open diamond-ended strands with interwoven crossing gaps |
 
 ## Install
 
@@ -159,7 +161,7 @@ Each `logos/<name>/` directory contains:
 | `design.json` | Editable 34 × 34 source grid and design notes |
 | `color` | Suggested hex color used by the launcher |
 
-`catalog.json` records names, colors, and halo reference URLs. [CREDITS.md](CREDITS.md) records attribution and asset scope.
+`catalog.json` records names, schools or affiliations, colors, and halo reference URLs. [CREDITS.md](CREDITS.md) records attribution and asset scope.
 
 ## Rebuild and check
 

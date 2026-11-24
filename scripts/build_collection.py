@@ -87,18 +87,21 @@ def font(size):
 
 
 def gallery(items):
-    rows = (len(items) + 2) // 3
-    sheet = Image.new('RGB', (1200, 128 + rows * 384), '#171c24')
+    items = sorted(items, key=lambda item: (item['school'], item['name']))
+    columns = 4
+    rows = (len(items) + columns - 1) // columns
+    sheet = Image.new('RGB', (1592, 128 + rows * 384), '#171c24')
     draw = ImageDraw.Draw(sheet)
     draw.text((32, 24), 'Fastfetch Blue Archive Logos', fill='#f1f5f9', font=font(32))
-    draw.text((32, 68), 'Custom terminal logos / 34 columns x 17 rows', fill='#a3b2c4', font=font(18))
+    draw.text((32, 68), 'Grouped by school / 34 columns x 17 rows', fill='#a3b2c4', font=font(18))
     for index, item in enumerate(items):
-        x, y = 24+(index%3)*392, 112+(index//3)*384
+        x, y = 24+(index%columns)*392, 112+(index//columns)*384
         draw.rounded_rectangle((x, y, x+368, y+356), radius=10, fill='#202733')
         draw.text((x+20, y+14), item['name'], font=font(24), fill=item['color'])
+        draw.text((x+20, y+46), item['school'], font=font(16), fill='#a3b2c4')
         im = Image.open(ROOT/'logos'/item['slug']/'logo.png').convert('RGBA')
         im = im.resize((272, 272), Image.Resampling.NEAREST)
-        sheet.paste(im, (x+48, y+60), im)
+        sheet.paste(im, (x+48, y+76), im)
     (ROOT/'docs').mkdir(exist_ok=True)
     sheet.save(ROOT/'docs/gallery.png')
 

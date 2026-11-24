@@ -2,7 +2,7 @@
 
 Preserve the halo’s identifying geometry. Circles stay circular. Keep detached elements, notches, and overlap gaps visible. Use bold strokes where the grid allows them.
 
-1. Add the student’s name, slug, color, and exact reference URLs to `catalog.json`.
+1. Add the student’s name, slug, school or affiliation, color, and exact reference URLs to `catalog.json`.
 2. Create `logos/<slug>/design.json` with `student`, `rationale`, and `rows` fields.
 3. Supply exactly 34 rows of 34 characters. Use `#` for filled pixels and `.` for empty pixels.
 4. Keep the outermost row and column empty on all four sides.
